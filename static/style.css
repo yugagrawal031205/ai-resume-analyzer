@@ -1,0 +1,130 @@
+body {
+    background: #0f172a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #1e293b;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #94a3b8;
+    font-size: 18px;
+}
+
+.input-section {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    background: #334155;
+    color: white;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#file-name {
+    margin-top: 10px;
+    color: #38bdf8;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    height: 220px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #475569;
+    background: #334155;
+    color: white;
+    resize: vertical;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+textarea::placeholder {
+    color: #94a3b8;
+}
+
+button {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    background: #3b82f6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+}
+
+#result {
+    margin-top: 35px;
+}
+
+.analysis-box {
+    background: #334155;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #475569;
+    line-height: 1.9;
+    font-size: 16px;
+    color: white;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.loading {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    color: #38bdf8;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e293b;
+}
